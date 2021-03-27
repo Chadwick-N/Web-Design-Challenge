@@ -4,37 +4,37 @@
     <meta charset="UTF-8">
     <title>Temperature</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://chadwick-n.github.io/Web-Design-Challenge/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="https://chadwick-n.github.io/Web-Design-Challenge/index.html">Latitude</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav m1-auto">
-          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Plots
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="https://chadwick-n.github.io/Web-Design-Challenge/temperature.html">Max Temperature</a>
-                <a class="dropdown-item" href="https://chadwick-n.github.io/Web-Design-Challenge/humidity.html">Humidity</a>
-                <a class="dropdown-item" href="https://chadwick-n.github.io/Web-Design-Challenge/cloudiness.html">Cloudiness</a>
-                <a class="dropdown-item" href="https://chadwick-n.github.io/Web-Design-Challenge/windspeed.html">Wind Speed</a>
-              </div>
-            </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="https://chadwick-n.github.io/Web-Design-Challenge/comparisons.html">Comparison <span class="sr-only">(current)</span></a>
+      <a class="navbar-brand" href="index.html">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav m1-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="https://chadwick-n.github.io/Web-Design-Challenge/temperature.html">Max Temperature</a>
+              <a class="dropdown-item" href="https://chadwick-n.github.io/Web-Design-Challenge/humidity.html">Humidity</a>
+              <a class="dropdown-item" href="https://chadwick-n.github.io/Web-Design-Challenge/cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="https://chadwick-n.github.io/Web-Design-Challenge/windspeed.html">Wind Speed</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://chadwick-n.github.io/Web-Design-Challenge/data.html">Data</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        <li class="nav-item active">
+          <a class="nav-link" href="comparisons.html">Comparison <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
     <div class="container">
         <div class="row">
@@ -44,42 +44,40 @@
                     <hr class="my-3">
                     <div class="row">
                       <figure class="rounded col-12">
-                        <img id="main-img" class="img-fluid rounded" src="https://chadwick-n.github.io/Web-Design-Challenge/assets/images/Fig1.png" alt="City Latitude vs Max Temp Plot" /><br />
+                        <img id="main-img" class="img-fluid rounded" src="Resources/assets/images/Fig1.png" alt="City Latitude vs Max Temp Plot" /><br />
                       </figure>
                           <p>
-                            
-                            As expected, the temperature appears to become warmer closer to the equator you get, but as you continue into the southern hemisphere the weather
-                            appears to be warmer during this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.
+                            The Northern and Southern Hemisphere Mirror each other. As Latitude increases for both hemispheres(adversly for SH), temperatures start to decline.
                           </p>
                       </div>
-                 </div>
-             </div>  
+                  </div>
+              </div>
   
   
     <div class="col-sm-12  col-lg-4">
-    <div id ='jumbo-right' class="jumbotron">
-        <h1 class="display-4">Comparison Visualizations</h1>
-        <hr class="my-3">
-                    <div class="row">
-                      <figure class="col-6">
-                          <a href="https://chadwick-n.github.io/Web-Design-Challenge/temperature.html"><img class="img-fluid rounded" src="https://chadwick-n.github.io/Web-Design-Challenge/assets/images/Fig1.png" alt="Latitude vs Max Temp"></a>    
-                      </figure>
-                  
-                      <figure class="col-6">
-                          <a href="https://chadwick-n.github.io/Web-Design-Challenge/humidity.html"><img class="img-fluid rounded" src="https://chadwick-n.github.io/Web-Design-Challenge/assets/images/Fig2.png" alt="Latitude vs Humidity"></a>
-                      </figure>
-                    </div>
-                    <div class="row">
-                      <figure id="active-img" class="col-6">
-                          <a href="https://chadwick-n.github.io/Web-Design-Challenge/cloudiness.html"><img class="img-fluid rounded" src="https://chadwick-n.github.io/Web-Design-Challenge/assets/images/Fig3.png" alt="Latitude vs Cloudiness"></a>
-                      </figure>
+      <div id ='jumbo-right' class="jumbotron">
+          <h1 class="display-4">Visualizations</h1>
+          <hr class="my-3">
+                      <div class="row">
+                        <figure class="col-6">
+                            <a href="https://chadwick-n.github.io/Web-Design-Challenge/temperature.html"><img class="img-fluid rounded" src="Resources/assets/images/Fig1.png" alt="Latitude vs Max Temp"></a>    
+                        </figure>
+                    
+                        <figure class="col-6">
+                            <a href="https://chadwick-n.github.io/Web-Design-Challenge/humidity.html"><img class="img-fluid rounded" src="Resources/assets/images/Fig2.png" alt="Latitude vs Humidity"></a>
+                        </figure>
+                      </div>
+                      <div class="row">
+                        <figure id="active-img" class="col-6">
+                            <a href="https://chadwick-n.github.io/Web-Design-Challenge/cloudiness.html"><img class="img-fluid rounded" src="Resources/assets/images/Fig3.png" alt="Latitude vs Cloudiness"></a>
+                        </figure>
 
-                      <figure class="col-6">
-                          <a href="https://chadwick-n.github.io/Web-Design-Challenge/windspeed.html"><img class="img-fluid rounded" src="https://chadwick-n.github.io/Web-Design-Challenge/assets/images/Fig4.png" alt="Latitude vs Wind Speed"></a>   
-                      </figure>
-                    </div>
-    </div>
-</div>
+                        <figure class="col-6">
+                            <a href="https://chadwick-n.github.io/Web-Design-Challenge/windspeed.html"><img class="img-fluid rounded" src="Resources/assets/images/Fig4.png" alt="Latitude vs Wind Speed"></a>   
+                        </figure>
+                      </div>
+      </div>
+  </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
